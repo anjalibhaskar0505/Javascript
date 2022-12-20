@@ -1,0 +1,72 @@
+.main-div
+{
+    background-color:rgb(29, 28, 28);
+    height: 520px;
+    width:450px;
+    margin-top: 70px;
+    margin-left: 500px;
+    border: 2px solid black;
+    border-radius: 5px;
+    
+
+}
+
+#textview{  
+    width: 300px;  
+    margin-left: 50px;
+    margin-top: 50px;
+    font-size: 25px;  
+    padding: 30px; 
+    background-color: lightblue;
+    border-radius: 10px;
+    text-align: right;
+    
+    }     
+
+.btn
+{
+    height: 50px;
+    width: 80px;
+    color:white;
+    background-color: black;
+    font-size: 30px;
+    border-radius: 15px;
+    margin-left: 5px;
+    margin-top:10px;
+    
+}
+h1 {  
+    text-align: center;  
+    padding:40px;  
+    background-color:gray;  
+    color: white;  
+    }  
+input:hover  
+{  
+background-color: green;  
+} 
+
+.btn1
+{
+    background-color: darkorange;
+    height: 50px;
+    width: 80px;
+    color:white;
+    font-size: 30px;
+    border-radius: 15px;
+    margin-left: 5px;
+    margin-top:10px;
+}
+
+.btnc
+{
+    background-color:red;
+    height: 50px;
+    width: 80px;
+    color:white;
+    font-size: 30px;
+    border-radius: 15px;
+    margin-left: 5px;
+    margin-top:10px;
+
+}

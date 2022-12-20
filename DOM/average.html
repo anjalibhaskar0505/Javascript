@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div>
+    <label for="1st mark">Enter first mark:</label>
+    <input type="text" id="1st mark"><br><br>
+
+    <label for="2nd mark">Enter second mark:</label>
+    <input type="text" id="2nd mark"><br><br>
+
+    <label for="3rd mark">Enter third mark:</label>
+    <input type="text" id="3rd mark"><br><br>
+
+    <label for="4th mark">Enter fourth mark:</label>
+    <input type="text" id="4th mark"><br><br>
+
+    <label for="5th mark">Enter fifth mark:</label>
+    <input type="text" id="5th mark"><br><br>
+
+    <input type="button" onclick="avg()" value="Average"><br><br>
+    <p id="result">Average is:</p><br><br>
+    <p id="grade">Grade is:</p><br><br>
+
+    
+</div>
+<script>
+    function avg(){
+    
+        var s1 =parseInt(document.getElementById("1st mark").value);
+        var s2 =parseInt(document.getElementById("2nd mark").value);
+        var s3 =parseInt(document.getElementById("3rd mark").value);
+        var s4 =parseInt(document.getElementById("4th mark").value);
+        var s5 =parseInt(document.getElementById("5th mark").value);
+    
+        var results =(s1+s2+s3+s4+s5);
+        var result=results/5;
+        document.getElementById("result").innerHTML=result;
+        console.log(result);
+    
+        if(avg>=90 && avg<=100)
+        {
+            document.getElementById("grade").innerHTML="A grade";
+        }
+        else if(avg>=80 && avg<=89)
+        {
+            document.getElementById("grade").innerHTML="B grade";  
+        }
+    
+        else if(avg>=70 && avg<=79)
+        {
+            document.getElementById("grade").innerHTML="C grade";  
+        }
+        else if(avg>=60 && avg<=69)
+        {
+            document.getElementById("grade").innerHTML="D grade";  
+        }
+    
+        else if(avg>=50 && avg<=59)
+        {
+            document.getElementById("grade").innerHTML="F grade";  
+        }
+        else
+        {
+            document.getElementById("grade").innerHTML="Failed";  
+        }
+    
+    
+    
+    }
+</script>
+</body>
+</html>

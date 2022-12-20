@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>sum</title>
+    
+</head>
+<body>
+    <div>
+        <center>
+            <form>
+            <input type="text" id="num1"><br><br>
+            <input type="text" id="num2"><br><br>
+            <input type="button" value="submit" onclick="sum()"><br><br>
+            <input type="text" id="para"><br><br>
+        </form></center>
+    </div>
+    <script >
+        function sum(){
+            var a =parseInt(document.getElementById("num1").value);
+           console.log(a)
+            var b =parseInt(document.getElementById("num2").value);
+            console.log(b)
+            var c =a + b;
+           
+            document.getElementById("para").value=c;
+            console.log(c);
+        }
+    </script>
+</body>
+</html>
