@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <center>
+    <form action="email validate.html" onsubmit="return validate()">
+        <!-- action means destination or redirecting the page while we submitting the button -->
+        <h2>Login Form</h2>
+        <div>
+            <label for="email">Email:</label>
+            <input type="text" placeholder="email" id="email">
+        </div>
+        <br>
+        <br>
+        <label for="error" id="error"></label>
+
+        <div>
+            <button type="submit" id="log" onclick="validate()">Login</button>
+        </div>
+
+        
+    </form>
+</center>
+<script src="email validate.js"></script>
+</body>
+</html>
