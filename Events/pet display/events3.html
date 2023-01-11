@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+  <h1>Welcome to Pets World</h1>  
+  <div id="customText">
+    <p>A pet, or companion animal, is an animal kept primarily for a person's company or entertainment rather than as a working animal, livestock, or a laboratory animal.</p>
+  </div>
+  <button onclick="change()">Change</button>
+
+  <div id="divItem">
+    <img id="imageItem" onmouseover="changeImage()" onmouseout="resetImage()" src="./images/pet1.jpg">
+  </div>
+
+  <!-- disappear an image by clicking a button -->
+  <button onclick="hide()">Disappear</button>
+
+  <!-- to show the element -->
+  <button ondblclick="reset()">Reset</button>
+  <script src="events3.js"></script>
+
+</body>
+</html>
