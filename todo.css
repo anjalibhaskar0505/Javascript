@@ -1,0 +1,28 @@
+input[type='submit'],button,#close
+{
+    cursor:pointer;
+    padding: 12px 14px;
+}
+
+.mytodo-list
+{
+    width: 320px;
+    margin:100px auto;
+    padding: 12px 14px;
+    
+}
+
+.counter
+{
+    margin: 10px 0;
+}
+
+#UpdateForm
+{
+    display:none;
+}
+
+input[type='text']
+{
+    padding: 12px 14px;
+}
